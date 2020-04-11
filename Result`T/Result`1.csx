@@ -10,7 +10,7 @@ public class Result
     {
         if (isSuccess && failMessage != null || !isSuccess && failMessage == null)
         {
-            throw new InvalidOperationException($"Can't initilaize an instance of {nameof(Result)} type.");
+            throw new InvalidOperationException($"Can't initialize an instance of {nameof(Result)} type.");
         }
 
         IsSuccess = isSuccess;
